@@ -23,7 +23,7 @@ h1 {
 
 /* Grid layout for the content */
 .content {
-    background-color: #fff;
+  
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
@@ -98,9 +98,7 @@ form input[type="number"] {
 }
 
 /* Styling for checkboxes in the form */
-form input[type="checkbox"] {
-    margin-top: 5px;
-}
+
 
 /* Styling for submit button in the form */
 form button[type="submit"] {
@@ -122,6 +120,7 @@ form button[type="submit"]:hover {
 .checkbox-container {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 /* Add this CSS to your existing styles */
@@ -169,4 +168,9 @@ form button[type="submit"]:hover {
     background-color: #FF5722;
     color: white;
     right: 70px;
+}
+
+
+.checkbox-container label {
+    margin: 0px;
 }
